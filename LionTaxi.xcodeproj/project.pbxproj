@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B90AA0B159318830080C0A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B90AA0A159318830080C0A9 /* UIKit.framework */; };
+		1B90AA0D159318830080C0A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B90AA0C159318830080C0A9 /* Foundation.framework */; };
+		1B90AA0F159318830080C0A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B90AA0E159318830080C0A9 /* CoreGraphics.framework */; };
+		1B90AA15159318830080C0A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B90AA13159318830080C0A9 /* InfoPlist.strings */; };
+		1B90AA17159318830080C0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B90AA16159318830080C0A9 /* main.m */; };
+		1B90AA1B159318830080C0A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B90AA1A159318830080C0A9 /* AppDelegate.m */; };
+		1B90AA1E159318830080C0A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B90AA1C159318830080C0A9 /* MainStoryboard.storyboard */; };
+		1B90AA21159318830080C0A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B90AA20159318830080C0A9 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B90AA06159318830080C0A9 /* LionTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B90AA0A159318830080C0A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B90AA0C159318830080C0A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B90AA0E159318830080C0A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B90AA12159318830080C0A9 /* LionTaxi-Info.plist */ = {isa = PBXFileReference; path = "LionTaxi-Info.plist"; sourceTree = "<group>"; };
+		1B90AA14159318830080C0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B90AA16159318830080C0A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B90AA18159318830080C0A9 /* LionTaxi-Prefix.pch */ = {isa = PBXFileReference; path = "LionTaxi-Prefix.pch"; sourceTree = "<group>"; };
+		1B90AA19159318830080C0A9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B90AA1A159318830080C0A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B90AA1D159318830080C0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1B90AA1F159318830080C0A9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1B90AA20159318830080C0A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B90AA03159318830080C0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90AA0B159318830080C0A9 /* UIKit.framework in Frameworks */,
+				1B90AA0D159318830080C0A9 /* Foundation.framework in Frameworks */,
+				1B90AA0F159318830080C0A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B90A9FB159318830080C0A9 = {
+			isa = PBXGroup;
+			children = (
+				1B90AA10159318830080C0A9 /* LionTaxi */,
+				1B90AA09159318830080C0A9 /* Frameworks */,
+				1B90AA07159318830080C0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B90AA07159318830080C0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B90AA06159318830080C0A9 /* LionTaxi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B90AA09159318830080C0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B90AA0A159318830080C0A9 /* UIKit.framework */,
+				1B90AA0C159318830080C0A9 /* Foundation.framework */,
+				1B90AA0E159318830080C0A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B90AA10159318830080C0A9 /* LionTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				1B90AA19159318830080C0A9 /* AppDelegate.h */,
+				1B90AA1A159318830080C0A9 /* AppDelegate.m */,
+				1B90AA1C159318830080C0A9 /* MainStoryboard.storyboard */,
+				1B90AA1F159318830080C0A9 /* ViewController.h */,
+				1B90AA20159318830080C0A9 /* ViewController.m */,
+				1B90AA11159318830080C0A9 /* Supporting Files */,
+			);
+			path = LionTaxi;
+			sourceTree = "<group>";
+		};
+		1B90AA11159318830080C0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B90AA12159318830080C0A9 /* LionTaxi-Info.plist */,
+				1B90AA13159318830080C0A9 /* InfoPlist.strings */,
+				1B90AA16159318830080C0A9 /* main.m */,
+				1B90AA18159318830080C0A9 /* LionTaxi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B90AA05159318830080C0A9 /* LionTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B90AA24159318830080C0A9 /* Build configuration list for PBXNativeTarget "LionTaxi" */;
+			buildPhases = (
+				1B90AA02159318830080C0A9 /* Sources */,
+				1B90AA03159318830080C0A9 /* Frameworks */,
+				1B90AA04159318830080C0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionTaxi;
+			productName = LionTaxi;
+			productReference = 1B90AA06159318830080C0A9 /* LionTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B90A9FD159318830080C0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Digital Projects Limited";
+			};
+			buildConfigurationList = 1B90AA00159318830080C0A9 /* Build configuration list for PBXProject "LionTaxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B90A9FB159318830080C0A9;
+			productRefGroup = 1B90AA07159318830080C0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B90AA05159318830080C0A9 /* LionTaxi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B90AA04159318830080C0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90AA15159318830080C0A9 /* InfoPlist.strings in Resources */,
+				1B90AA1E159318830080C0A9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B90AA02159318830080C0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B90AA17159318830080C0A9 /* main.m in Sources */,
+				1B90AA1B159318830080C0A9 /* AppDelegate.m in Sources */,
+				1B90AA21159318830080C0A9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B90AA13159318830080C0A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B90AA14159318830080C0A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B90AA1C159318830080C0A9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B90AA1D159318830080C0A9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B90AA22159318830080C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B90AA23159318830080C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B90AA25159318830080C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionTaxi/LionTaxi-Prefix.pch";
+				INFOPLIST_FILE = "LionTaxi/LionTaxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B90AA26159318830080C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionTaxi/LionTaxi-Prefix.pch";
+				INFOPLIST_FILE = "LionTaxi/LionTaxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B90AA00159318830080C0A9 /* Build configuration list for PBXProject "LionTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B90AA22159318830080C0A9 /* Debug */,
+				1B90AA23159318830080C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B90AA24159318830080C0A9 /* Build configuration list for PBXNativeTarget "LionTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B90AA25159318830080C0A9 /* Debug */,
+				1B90AA26159318830080C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B90A9FD159318830080C0A9 /* Project object */;
+}
